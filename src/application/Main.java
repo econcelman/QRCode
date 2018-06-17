@@ -69,6 +69,9 @@ public class Main extends Application {
 		
 		}
 		
+		Rectangle whiteBigLeft = new Rectangle(0,0, squareSize*9, squareSize*9);
+		whiteBigLeft.setFill(Color.WHITE);
+		rectangles.add(whiteBigLeft);
 		Rectangle bigTopLeft = new Rectangle(0,0, squareSize*8, squareSize*8);
 		bigTopLeft.setFill(Color.BLACK);
 		rectangles.add(bigTopLeft);
@@ -77,6 +80,9 @@ public class Main extends Application {
 		middleTopLeft.setStrokeWidth(20);
 		rectangles.add(middleTopLeft);
 		
+		Rectangle whiteBigRight = new Rectangle(368,0, squareSize*9, squareSize*9);
+		whiteBigRight.setFill(Color.WHITE);
+		rectangles.add(whiteBigRight);
 		Rectangle bigTopRight = new Rectangle(384,0, squareSize*8, squareSize*8);
 		bigTopLeft.setFill(Color.BLACK);
 		rectangles.add(bigTopRight);
@@ -85,6 +91,9 @@ public class Main extends Application {
 		middleTopRight.setStrokeWidth(20);
 		rectangles.add(middleTopRight);
 		
+		Rectangle bottomBigLeft = new Rectangle(0,368, squareSize*9, squareSize*9);
+		bottomBigLeft.setFill(Color.WHITE);
+		rectangles.add(bottomBigLeft);
 		Rectangle bigBottomLeft = new Rectangle(0,384, squareSize*8, squareSize*8);
 		bigTopLeft.setFill(Color.BLACK);
 		rectangles.add(bigBottomLeft);
